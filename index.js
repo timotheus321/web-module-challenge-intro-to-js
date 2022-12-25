@@ -16,12 +16,17 @@ Task 1a - Voting Age (not auto tested)
 Do the following:   
    1. Create a variable called votingAge and assign it a number value
    2. Console log true if age is 18 or higher
-
+    so write console log is true if age is 18 or higher?
    HINT: no function required
 */
 
-
-
+const votingAge = 18;
+if(votingAge >= 18){
+  console.log('task 1 a:',true);
+}
+else{
+  console.log('task 1 a:',false);
+}
 /*
 Task 1b - Values (not auto tested)
 
@@ -34,8 +39,13 @@ Do the following:
    HINT: no function required
 */
 
+let firstThing = 'roger';
+let secondThing = 'monkey';
+if(firstThing === 'monkey'){
+    firstThing = 'bear';
 
-
+}
+console.log('task 1 b:', firstThing);
 
 
 /*
@@ -48,8 +58,9 @@ Do the following:
 
    HINT: look up the Number method
 */
+var newVariable = '1999';
 
-
+  console.log('task 1 c:',Number(newVariable));
 
 
 /*
@@ -64,7 +75,7 @@ Do the following:
 function multiply(num1, num2){
   return num1 * num2;
 }
-
+console.log('task 1 d:', multiply(9,9));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
