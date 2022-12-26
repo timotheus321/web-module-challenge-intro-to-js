@@ -303,12 +303,17 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
+function vowelCounter(str) {
+ let vowels = "aeiouAEIOU";
+ let count = 0;
+
+ for (let i =0; i < str.length; i++){
+  if (vowels.includes(str[i])){
+    count++;
+  }
+ }
+ return count;
 }
-
-
-
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 function foo(){
   console.log('its working');
